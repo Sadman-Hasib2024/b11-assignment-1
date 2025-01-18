@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #F1F1F3;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+nav h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+nav button{
+    box-sizing: border-box;
+border: 2px solid rgb(0, 106, 80);
+border-radius: 8px;
+height: 50px;
+padding-left: 30px;
+padding-right: 30px;
+align-items: center;
+color: rgb(0, 106, 80);
+font-size: 18px;
+font-family: Fira Sans;
+font-weight: 600;
+
+
+}
+.banner{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    border-radius: 24px;
+
+background: rgb(198, 228, 214);
+margin: 50px;
+padding: 50px;
+justify-content: space-between;
+}
+.document p{
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.document h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 16px;
+margin-bottom: 24px;
+}
+.document .button{
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
+    background: rgb(0, 106, 80);
+
+}
+/* pillar section */
+.pillars{
+    margin: 60px;
+}
+.pillars .Pillars-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.pillar-card{
+    display: flex;
+}
+.piller-div{
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+padding: 10px;
+margin-right: 20px;
+background: rgb(255, 255, 255);
+}
+
+/* future section */
+.future{
+    margin: 60px;
+}
+.future-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.future-des{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.future-card{
+    display: flex;
+}
+.future-box-head{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+}
+.future-box-des{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 12px;
+}
+.future-box1{
+    box-sizing: border-box;
+border-radius: 16px;
+padding: 10px;
+margin-right: 20px;
+background: rgba(84, 144, 245, 0.2);
+width: 440px;
+height: 300px;
+padding: 20px;
+}
+.future-box2{
+    box-sizing: border-box;
+border-radius: 16px;
+padding: 10px;
+margin-right: 20px;
+background: rgb(198, 228, 214);
+width: 440px;
+height: 300px;
+padding: 20px;
+}
+.future-box3{
+    box-sizing: border-box;
+border-radius: 16px;
+padding: 10px;
+margin-right: 20px;
+background: rgb(247, 235, 207);
+width: 440px;
+height: 300px;
+padding: 20px;
+}
+.future-btn1{
+border-radius: 5px;
+width: 122px;
+height: 41px;
+border: none;
+background: rgb(84, 144, 245);
+margin-top: 30px;
+}
+.future-btn2{
+border-radius: 5px;
+width: 122px;
+height: 41px;
+border: none;
+background: rgb(9, 161, 92);
+margin-top: 30px;
+}
+.future-btn3{
+border-radius: 5px;
+width: 122px;
+height: 41px;
+border: none;
+background: rgb(255, 194, 57);
+margin-top: 30px;
+}
+/* Dr. Muhammad Yunus section */
+.yunus{
+    margin: 60px;
+}
+.yunus-div{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+padding: 30px 18px 30px 18px;
+background: rgb(255, 255, 255);
+background-image: url(../assets/quote-bg.png);
+background-repeat: no-repeat;
+background-position: 29px 10px;
+}
+.yunus-des{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+.yunus-name{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 5px;
+}
+.yunus-title{
+    color: rgba(14, 14, 14, 0.6);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 0px;
+}
+/* opinion section */
+.opinion{
+    margin: 60px;
+}
+.opinion-div{
+    
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    height: 230px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+.opinion-head{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.opinion-table{
+
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+
+}
+th,td{
+    text-align: left;
+    padding: 12px;
+}
+th{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+td{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgba(255, 255, 255, 0.1);
+}
+select {
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    height: 30px;
+    background: rgb(198, 228, 214);
+  }
+  /* news section */
+  .news{
+    margin: 60px;
+  }
+  .satelite{
+    margin: 50px auto;
+    display: flex;
+    border-radius: 24px;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+  }
+  .new-satelite{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .sat-img{
+    border-radius: 24px;
+  }
+  .news-button{
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    background-color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-family: Fira Sans;
+    font-weight: 600;
+  }
+  .date-time{
+    display: flex;
+    gap:50px;
+  }
+  /* donate section */
+  .donate{
+    margin: 60px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+.donate-head{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.donate-des{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+  .amount{
+    display: flex;
+    justify-content: space-between;
+  }
+.taka{
+    width: 240px;
+height: 100px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: rgb(255, 255, 255);
+font-weight: 800;
+  }
+.taka:hover{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(198, 228, 214);
+}
+.donate input{
+    box-sizing: border-box;
+border: none;
+background: rgb(255, 255, 255);
+width: 98%;
+height: 50px;
+margin-left: 20px;
+margin-right: 20px;
+text-align: center;
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 15px;
+font-weight: 200 ;
+line-height: 24px;
+letter-spacing: 0%;
+}
+.donate button{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+margin-top: 30px;
+background: rgb(0, 106, 80);
+padding: 17px 34px 17px 34px;
+color: #F1F1F3;
+} 
+/* subscribe section */
+.subscribe{
+    margin: 60px;
+    border-radius: 24px;
+text-align: center;
+background: rgb(198, 228, 214);
+padding: 60px 40px 60px 40px;
+}
+.sub-head{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.subscribe p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.input-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.subscribe button {
+    height: 40px;
+    padding: 0 20px; /* Adds horizontal padding */
+    border: 1px solid rgb(0, 106, 80); /* Matches button border color */
+    border-left: none; /* Removes overlapping border with input */
+    border-radius: 0 8px 8px 0; /* Matches input border */
+    background: rgb(0, 106, 80);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.subscribe input {
+    width: 40%;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid #ccc; /* Ensures consistent border */
+    border-radius: 8px 0 0 8px; /* Matches button border */
+    box-sizing: border-box;
+}
+
+
+
+
